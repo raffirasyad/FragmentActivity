@@ -1,0 +1,24 @@
+<!-- fragment_a.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD700">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp" />
+
+    <!-- Tambahkan elemen UI lainnya sesuai kebutuhan -->
+</RelativeLayout>

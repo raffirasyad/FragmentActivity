@@ -1,0 +1,28 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Container untuk FragmentA -->
+    <FrameLayout
+        android:id="@+id/fragment_container_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!-- Container untuk FragmentB -->
+    <FrameLayout
+        android:id="@+id/fragment_container_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!-- Container untuk FragmentC -->
+    <FrameLayout
+        android:id="@+id/fragment_container_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>
